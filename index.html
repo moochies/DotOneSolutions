@@ -1,1755 +1,568 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Baosh || Responsive HTML 5 Template</title>
-    <!-- Favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Baosh HTML 5 Template " />
+    <meta charset="utf-8">
+    <title>Documentation For Baosh - Responsive HTML 5 Template</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.highlight.css" />
 
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/nice-select/nice-select.css" />
-    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
-    <link rel="stylesheet" href="assets/vendors/thm-icons/style.css" />
-    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/scrollbar.css" rel="stylesheet">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
 <body>
-    <!-- Start Preloader -->
-    <div class="loader-wrap">
-        <div class="preloader">
-            <div class="preloader-close">x</div>
-            <div id="handle-preloader" class="handle-preloader">
-                <div class="animation-preloader">
-                    <div class="spinner"></div>
-                    <div class="txt-loading">
-                        <span data-text-preloader="b" class="letters-loading"> b </span>
-                        <span data-text-preloader="a" class="letters-loading"> a </span>
-                        <span data-text-preloader="o" class="letters-loading"> o </span>
-                        <span data-text-preloader="s" class="letters-loading"> s </span>
-                        <span data-text-preloader="h" class="letters-loading"> h </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Preloader -->
-
+    <!--Page Wrapper-->
     <div class="page-wrapper">
 
-        <!-- Start sidebar widget content -->
-        <div class="xs-sidebar-group info-group info-sidebar">
-            <div class="xs-overlay xs-bg-black"></div>
-            <div class="xs-sidebar-widget">
-                <div class="sidebar-widget-container">
-                    <div class="widget-heading">
-                        <a href="#" class="close-side-widget">X</a>
-                    </div>
-                    <div class="sidebar-textwidget">
-                        <div class="sidebar-info-contents">
-                            <div class="content-inner">
-                                <div class="logo">
-                                    <a href="index.html"><img src="assets/images/resources/logo-1.png" alt="" /></a>
-                                </div>
-                                <div class="content-box">
-                                    <h4>About Us</h4>
-                                    <div class="inner-text">
-                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                            roots in a piece of classical Latin literature from 45 BC, making it over
-                                            2000 years old.
-                                        </p>
-                                    </div>
-                                </div>
+        <!--Sidebar-->
+        <aside id="sidebar">
 
-                                <div class="form-inner">
-                                    <h4>Get a free quote</h4>
-                                    <form action="index.html" method="post">
-                                        <div class="form-group">
-                                            <input type="text" name="name" placeholder="Name" required="">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="email" name="email" placeholder="Email" required="">
-                                        </div>
-                                        <div class="form-group">
-                                            <textarea name="message" placeholder="Message..."></textarea>
-                                        </div>
-                                        <div class="form-group message-btn">
-                                            <button class="thm-btn" type="submit" data-loading-text="Please wait...">
-                                                <span class="txt">Submit Now</span>
-                                                <span class="bdrl"></span>
-                                                <span class="bdrr"></span>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-
-                                <div class="sidebar-contact-info">
-                                    <h4>Contact Info</h4>
-                                    <ul>
-                                        <li>
-                                            <span class="icon-placeholder-1"></span> 88 broklyn street, New York
-                                        </li>
-                                        <li>
-                                            <span class="icon-phone-ringing"></span>
-                                            <a href="tel:123456789">+1 555-9990-153</a>
-                                        </li>
-                                        <li>
-                                            <span class="fa fa-envelope"></span>
-                                            <a href="mailto:info@example.com">info@example.com</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="thm-social-link1">
-                                    <ul class="social-box">
-                                        <li class="facebook">
-                                            <a href="#"><i class="icon-facebook" aria-hidden="true"></i></a>
-                                        </li>
-                                        <li class="twitter">
-                                            <a href="#"><i class="icon-twitter" aria-hidden="true"></i></a>
-                                        </li>
-                                        <li class="linkedin">
-                                            <a href="#"><i class="icon-instagram" aria-hidden="true"></i></a>
-                                        </li>
-                                        <li class="gplus">
-                                            <a href="#"><i class="icon-pinterest" aria-hidden="true"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!--Toggle Button-->
+            <div class="button-container clearfix">
+                <div class="menu-toggle flaticon-menu10"></div>
             </div>
-        </div>
-        <!-- End sidebar widget content -->
 
-        <!--Start Main Header One-->
-        <header class="main-header main-header-one">
-            <div class="main-header-one__inner">
-                <nav class="main-menu main-menu-one">
-                    <div class="main-menu__wrapper clearfix">
-                        <div class="auto-container">
-                            <div class="main-menu__wrapper-inner">
-                                <div class="main-menu-box">
-                                    <a href="#" class="mobile-nav__toggler">
-                                        <i class="fa fa-bars"></i>
-                                    </a>
+            <!--Menu Box-->
+            <div class="menu-box">
+                <!--Logo-->
+                <br>
+                <div class="logo text-right"><a href="#"><img src="images/logo.png" width="120" alt=""></a></div>
 
-                                    <ul class="main-menu__list">
-                                        <li class="dropdown current">
-                                            <a href="index.html">Home</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="index.html">Home One</a>
-                                                </li>
-                                                <li><a href="index-2.html">Home Two</a></li>
-                                                <li class="dropdown">
-                                                    <a href="#">One Pages</a>
-                                                    <ul>
-                                                        <li><a href="index-one-page.html">One Page Style1</a></li>
-                                                        <li>
-                                                            <a href="index2-one-page.html">One Page Style2</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li>
-                                            <a href="about.html">About</a>
-                                        </li>
-
-                                        <li class="dropdown">
-                                            <a href="#">Services</a>
-                                            <ul>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li>
-                                                    <a href="agriculture-services.html">Agriculture Services</a>
-                                                </li>
-                                                <li>
-                                                    <a href="graphic-design.html">Graphic Design</a>
-                                                </li>
-                                                <li>
-                                                    <a href="delivery-services.html">Delivery Services</a>
-                                                </li>
-                                                <li>
-                                                    <a href="farming-products.html">Farming Products</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="dropdown">
-                                            <a href="#">Pages</a>
-                                            <ul>
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
-                                                <li>
-                                                    <a href="portfolio-details.html">Portfolio Details</a>
-                                                </li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-carousel.html">Team Carousel</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="testimonial.html">Testimonial</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="faq.html">Faq</a></li>
-                                                <li><a href="404.html">404 Error</a></li>
-                                                <li><a href="coming-soon.html">Coming Soon Page</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="dropdown">
-                                            <a href="#">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-carousel.html">Blog Carousel</a></li>
-                                                <li><a href="blog-list.html">Blog List</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li>
-                                            <a href="contact.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="main-header-one__middle">
-                                    <div class="logo-box-one">
-                                        <a href="index.html">
-                                            <img src="assets/images/resources/logo-1.png" alt="Awesome Logo" title="" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="main-header-one__right">
-                                    <ul class="Reg-login-box">
-                                        <li>
-                                            <a href="#">Register</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Login</a>
-                                        </li>
-                                    </ul>
-
-                                    <div class="header-search-box">
-                                        <a href="#"
-                                            class="main-menu__search search-toggler icon-search-interface-symbol">
-                                        </a>
-                                    </div>
-
-                                    <div class="header-cart-box">
-                                        <a href="#">
-                                            <i class="icon-bag"></i>
-                                            <span class="count">3</span>
-                                        </a>
-                                    </div>
-
-                                    <div class="side-content-button-box">
-                                        <div class="side-content-button">
-                                            <a class="navSidebar-button" href="#">
-                                                <span class="icon-menu"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!--End Main Header One-->
-
-        <div class="stricky-header stricky-header--one stricked-menu main-menu">
-            <div class="sticky-header__content"></div>
-            <!-- /.sticky-header__content -->
-        </div>
-        <!-- /.stricky-header -->
-
-        <!--Start Main Slider -->
-        <section class="main-slider main-slider-one">
-            <div class="swiper-container main-slider-one__carousel">
-                <div class="swiper-wrapper">
-                    <!--Start Main Slider One-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slider-v1-bg.jpg);">
-                        </div>
-                        <div class="auto-container">
-                            <div class="main-slider-one__single">
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/slides/slider-v1-img1.jpg" alt="#">
-                                </div>
-                                <div class="main-slider-one__content">
-                                    <ul class="social-links">
-                                        <li><a href="#">Fb.</a></li>
-                                        <li><a href="#">Tw.</a></li>
-                                        <li><a href="#">In.</a></li>
-                                        <li><a href="#">Be.</a></li>
-                                    </ul>
-
-                                    <div class="title">
-                                        <h2>
-                                            Things <br>
-                                            <span class="icon-right-arrow-1"></span> creative <br>
-                                            everyday
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Main Slider One-->
-
-                    <!--Start Main Slider One-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slider-v1-bg.jpg);">
-                        </div>
-                        <div class="auto-container">
-                            <div class="main-slider-one__single">
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/slides/slider-v1-img1.jpg" alt="#">
-                                </div>
-                                <div class="main-slider-one__content">
-                                    <ul class="social-links">
-                                        <li><a href="#">Fb.</a></li>
-                                        <li><a href="#">Tw.</a></li>
-                                        <li><a href="#">In.</a></li>
-                                        <li><a href="#">Be.</a></li>
-                                    </ul>
-
-                                    <div class="title">
-                                        <h2>
-                                            Things <br>
-                                            <span class="icon-right-arrow-1"></span> creative <br>
-                                            everyday
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Main Slider One-->
-
-                    <!--Start Main Slider One-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slider-v1-bg.jpg);">
-                        </div>
-                        <div class="auto-container">
-                            <div class="main-slider-one__single">
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/slides/slider-v1-img1.jpg" alt="#">
-                                </div>
-                                <div class="main-slider-one__content">
-                                    <ul class="social-links">
-                                        <li><a href="#">Fb.</a></li>
-                                        <li><a href="#">Tw.</a></li>
-                                        <li><a href="#">In.</a></li>
-                                        <li><a href="#">Be.</a></li>
-                                    </ul>
-
-                                    <div class="title">
-                                        <h2>
-                                            Things <br>
-                                            <span class="icon-right-arrow-1"></span> creative <br>
-                                            everyday
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Main Slider One-->
-
-                    <!--Start Main Slider One-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slider-v1-bg.jpg);">
-                        </div>
-                        <div class="auto-container">
-                            <div class="main-slider-one__single">
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/slides/slider-v1-img1.jpg" alt="#">
-                                </div>
-                                <div class="main-slider-one__content">
-                                    <ul class="social-links">
-                                        <li><a href="#">Fb.</a></li>
-                                        <li><a href="#">Tw.</a></li>
-                                        <li><a href="#">In.</a></li>
-                                        <li><a href="#">Be.</a></li>
-                                    </ul>
-
-                                    <div class="title">
-                                        <h2>
-                                            Things <br>
-                                            <span class="icon-right-arrow-1"></span> creative <br>
-                                            everyday
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Main Slider One-->
-
-                    <!--Start Main Slider One-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slider-v1-bg.jpg);">
-                        </div>
-                        <div class="auto-container">
-                            <div class="main-slider-one__single">
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/slides/slider-v1-img1.jpg" alt="#">
-                                </div>
-                                <div class="main-slider-one__content">
-                                    <ul class="social-links">
-                                        <li><a href="#">Fb.</a></li>
-                                        <li><a href="#">Tw.</a></li>
-                                        <li><a href="#">In.</a></li>
-                                        <li><a href="#">Be.</a></li>
-                                    </ul>
-
-                                    <div class="title">
-                                        <h2>
-                                            Things <br>
-                                            <span class="icon-right-arrow-1"></span> creative <br>
-                                            everyday
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Main Slider One-->
-
-                    <!--Start Main Slider One-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slider-v1-bg.jpg);">
-                        </div>
-                        <div class="auto-container">
-                            <div class="main-slider-one__single">
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/slides/slider-v1-img1.jpg" alt="#">
-                                </div>
-                                <div class="main-slider-one__content">
-                                    <ul class="social-links">
-                                        <li><a href="#">Fb.</a></li>
-                                        <li><a href="#">Tw.</a></li>
-                                        <li><a href="#">In.</a></li>
-                                        <li><a href="#">Be.</a></li>
-                                    </ul>
-
-                                    <div class="title">
-                                        <h2>
-                                            Things <br>
-                                            <span class="icon-right-arrow-1"></span> creative <br>
-                                            everyday
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Main Slider One-->
-
-                    <!--Start Main Slider One-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slider-v1-bg.jpg);">
-                        </div>
-                        <div class="auto-container">
-                            <div class="main-slider-one__single">
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/slides/slider-v1-img1.jpg" alt="#">
-                                </div>
-                                <div class="main-slider-one__content">
-                                    <ul class="social-links">
-                                        <li><a href="#">Fb.</a></li>
-                                        <li><a href="#">Tw.</a></li>
-                                        <li><a href="#">In.</a></li>
-                                        <li><a href="#">Be.</a></li>
-                                    </ul>
-
-                                    <div class="title">
-                                        <h2>
-                                            Things <br>
-                                            <span class="icon-right-arrow-1"></span> creative <br>
-                                            everyday
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Main Slider One-->
-
-                </div>
-                <div class="project-one__control-wrap">
-                    <div class="swiper-counter">
-                        <div id="current2">01</div>
-                        <div id="total2"></div>
-                    </div>
-                </div>
-
-                <div class="scroll-pagination">
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-        <!--End Main Slider-->
-
-        <!--Start Brand One -->
-        <section class="brand-one">
-            <div class="auto-container">
-                <div class="brand-one__inner">
+                <!--Sticky Menu-->
+                <nav class="sticky-menu">
                     <ul>
-                        <li><a href="#"><img src="assets/images/brand/brand-1-1.png" alt="#"></a></li>
-                        <li><a href="#"><img src="assets/images/brand/brand-1-2.png" alt="#"></a></li>
-                        <li><a href="#"><img src="assets/images/brand/brand-1-3.png" alt="#"></a></li>
-                        <li><a href="#"><img src="assets/images/brand/brand-1-4.png" alt="#"></a></li>
-                        <li><a href="#"><img src="assets/images/brand/brand-1-5.png" alt="#"></a></li>
+                        <li class="current"><a href="#introduction">Introduction <span
+                                    class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#html-structure">HTML Structure <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#css-structure">CSS Files and Structure <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#javascript">Javascript <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#map-settings">Google Map Settings <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#mailchimp-settings">MailChimp Settings<span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#contact-form">Contact Form Settings<span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#tutorial">Tutorial<span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#sources-credits">Sources and Credits <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#support">Support <span class="fa fa-arrow-right"></span></a></li>
                     </ul>
-                </div>
+
+                </nav>
+
             </div>
-        </section>
-        <!--End Brand One -->
 
-        <!--Start About One -->
-        <section class="about-one">
-            <div class="big-title1 wow slideInLeft" data-wow-delay="500ms" data-wow-duration="2500ms">
-                <h2>About</h2>
+            <div class="copyright">Copyright &copy; <a href="mailto:webplateone@gmail.com">webplateone</a> 2023
             </div>
-            <div class="big-title2 wow slideInRight" data-wow-delay="500ms" data-wow-duration="2500ms">
-                <h2>Creative</h2>
-            </div>
-            <div class="container">
-                <div class="about-one__inner">
-                    <div class="sec-title text-center tg-heading-subheading animation-style2">
-                        <div class="sec-title__tagline">
-                            <p class="tg-element-title">about us</p>
-                            <div class="border-box"></div>
-                        </div>
-                        <h2 class="sec-title__title tg-element-title">We creative best high services <br>
-                            & bold solutions for your <br> business <span>growth</span></h2>
-                    </div>
-                    <div class="btn-box">
-                        <a class="thm-btn" href="contact.html">
-                            <span class="txt">Explore More</span>
-                            <span class="bdrl"></span>
-                            <span class="bdrr"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End About One -->
+        </aside>
 
-        <!--Start Advantages One -->
-        <section class="advantages-one">
-            <div class="container">
-                <div class="advantages-one__inner">
-                    <ul class="row">
-                        <li class="col-xl-4">
-                            <div class="advantages-one__single">
-                                <div class="advantages-one__single-img">
-                                    <div class="btn-box">
-                                        <a href="#">Show all More</a>
-                                        <div class="border-box"></div>
-                                    </div>
-                                    <div class="inner">
-                                        <img src="assets/images/resources/advantages-v1-img1.jpg" alt="#">
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
+        <div id="content-section">
 
-                        <li class="col-xl-4">
-                            <div class="advantages-one__single">
-                                <div class="advantages-one__single-content">
-                                    <div class="tagline">
-                                        <a href="#">advantages</a>
-                                        <div class="border-box"></div>
-                                    </div>
+            <!--Introduction Section-->
+            <section class="section introduction" id="introduction">
+                <!-- <div class="sec-title">
+            	<span class="icon fa fa-windows"></span>
+                <h2>Intoduction</h2>
+            </div> -->
 
-                                    <div class="title-box">
-                                        <h2>Design <br>
-                                            <span>Creatively</span> <br>
-                                            Beauty</h2>
-                                    </div>
+                <br>
+                <div class="sec-content">
+                    <h2>Baosh</h2>
+                    <h3>Responsive HTML 5 Template</h3>
 
-                                    <p>Mestib ulligula. remove the politices for this projects
-                                        marketing reserch abusiness high levels process
-                                        we try to best consultations</p>
+                    <div class="separator"></div>
 
-                                    <div class="btn-box">
-                                        <a class="thm-btn" href="contact.html">
-                                            <span class="txt">View More</span>
-                                            <span class="bdrl"></span>
-                                            <span class="bdrr"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
+                    <strong>Created :</strong> 09/29/2023<br>
+                    <strong>By :</strong> webplateone<br>
+                    <strong>Support :</strong> <a href="mailto:webplateone@gmail.com">Email Us</a> <br>
 
-                        <li class="col-xl-4">
-                            <div class="advantages-one__single">
-                                <div class="advantages-one__single-img">
-                                    <div class="btn-box">
-                                        <a href="#">Show all More</a>
-                                        <div class="border-box"></div>
-                                    </div>
-                                    <div class="inner">
-                                        <img src="assets/images/resources/advantages-v1-img2.jpg" alt="#">
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
+                    <br>
+                    <p>Thank you for purchasing <strong>Baosh</strong> - Responsive HTML 5 Template.
+                        If you have any questions that are beyond the scope of this help file, please feel free to
+                        email, via my
+                        user page contact form or put a ticket at Support Center .<br>Thankyou so much!
+                    </p>
+
+                    <br />
+
+                    <h3 class="content-title">Template Features</h3>
+                    <br />
+                    <ul class="checkbox">
+                        <li>Clean & Simple Design</li>
+                        <li>Advance Bootstrap 5.x Framework </li>
+                        <li>HTML5 & CSS3 </li>
+                        <li>CSS3 Animations </li>
+                        <li>Fully Responsive Design </li>
+                        <li>All files are well commented </li>
+                        <li>Crossbrowser Compatible with IE10+, Firefox, Safari, Opera, Chrome </li>
+                        <li>Extensive Documentation</li>
                     </ul>
-                </div>
-            </div>
-        </section>
-        <!--End Advantages One -->
 
-        <!--Start Counter One -->
-        <section class="counter-one">
-            <div class="big-title">
-                <h2>Counters</h2>
-            </div>
-            <div class="auto-container">
-                <div class="row">
-                    <!--Start Counter One Single-->
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="counter-one__single">
-                            <div class="border-box wow animated fadeInLeft" data-wow-delay="0.1s"></div>
-                            <div class="counter-one__content wow animated fadeInRight" data-wow-delay="0.1s">
-                                <h2><span class="odometer" data-count="2">00</span> <span class="k">k</span> </h2>
-                                <p>Expert Members</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Counter One Single-->
-
-                    <!--Start Counter One Single-->
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="counter-one__single">
-                            <div class="border-box wow animated fadeInLeft" data-wow-delay="0.1s"></div>
-                            <div class="counter-one__content wow animated fadeInRight" data-wow-delay="0.1s">
-                                <h2><span class="odometer" data-count="213">00</span> </h2>
-                                <p>Award Winners</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Counter One Single-->
-
-                    <!--Start Counter One Single-->
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="counter-one__single">
-                            <div class="border-box wow animated fadeInLeft" data-wow-delay="0.1s"></div>
-                            <div class="counter-one__content wow animated fadeInRight" data-wow-delay="0.1s">
-                                <h2><span class="odometer" data-count="1">00</span> <span class="k">k</span> </h2>
-                                <p>Happy Clients</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Counter One Single-->
-
-                    <!--Start Counter One Single-->
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="counter-one__single">
-                            <div class="border-box wow animated fadeInLeft" data-wow-delay="0.1s"></div>
-                            <div class="counter-one__content wow animated fadeInRight" data-wow-delay="0.1s">
-                                <h2><span class="odometer" data-count="12">00</span> <span class="k">k</span> </h2>
-                                <p>Cup of Tea</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Counter One Single-->
-                </div>
-            </div>
-        </section>
-        <!--End Counter One -->
-
-        <!--Start Services One -->
-        <section class="services-one">
-            <div class="container">
-                <div class="row">
-                    <!--Start Services One Left Content-->
-                    <div class="col-xl-5">
-                        <div class="services-one__left-content">
-                            <div class="sec-title tg-heading-subheading animation-style2">
-                                <div class="sec-title__tagline">
-                                    <p class="tg-element-title">what we do</p>
-                                    <div class="border-box"></div>
-                                </div>
-                                <h2 class="sec-title__title tg-element-title">Agency Services <br>
-                                    We Provide
-                                </h2>
-                            </div>
-
-                            <div class="services-one__left-content-text">
-                                <p>Mestib ulligula remove the politices project completed
-                                    marketing reserch abusiness high level process
-                                    consultation for business.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Services One Left Content-->
-
-                    <!--Start Services One Right Content-->
-                    <div class="col-xl-7">
-                        <div class="services-one__right-content">
-                            <ul>
-                                <li class="wow animated fadeInRight" data-wow-delay="0.1s">
-                                    <div class="outer-box">
-                                        <div class="inner">
-                                            <div class="left-content">
-                                                <div class="icon-box">
-                                                    <span class="icon-writing"></span>
-                                                </div>
-                                                <div class="title-box">
-                                                    <h2>Content Writings <br>
-                                                        & Marketing</h2>
-                                                </div>
-                                            </div>
-
-                                            <div class="right-content">
-                                                <p>Mestib ulligula remov project complete <br>
-                                                    marketing reserch to abusiness high process </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="overlay-content">
-                                            <div class="left-content">
-                                                <div class="number-box">
-                                                    01
-                                                </div>
-
-                                                <div class="title-box2">
-                                                    <h2>Content Writings <br>
-                                                        & Marketing</h2>
-                                                </div>
-                                            </div>
-
-                                            <div class="right-content">
-                                                <div class="btn-box">
-                                                    <a href="#">View Details <span class="icon-chevron"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li class="wow animated fadeInRight" data-wow-delay="0.3s">
-                                    <div class="outer-box">
-                                        <div class="inner">
-                                            <div class="left-content">
-                                                <div class="icon-box">
-                                                    <span class="icon-web-design"></span>
-                                                </div>
-                                                <div class="title-box">
-                                                    <h2>Graphic & Sketches <br>
-                                                        Designing</h2>
-                                                </div>
-                                            </div>
-
-                                            <div class="right-content">
-                                                <p>Mestib ulligula remov project complete <br>
-                                                    marketing reserch to abusiness high process </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="overlay-content">
-                                            <div class="left-content">
-                                                <div class="number-box">
-                                                    02
-                                                </div>
-
-                                                <div class="title-box2">
-                                                    <h2>Graphic & Sketches <br>
-                                                        Designing</h2>
-                                                </div>
-                                            </div>
-
-                                            <div class="right-content">
-                                                <div class="btn-box">
-                                                    <a href="#">View Details <span class="icon-chevron"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li class="wow animated fadeInRight" data-wow-delay="0.3s">
-                                    <div class="outer-box">
-                                        <div class="inner">
-                                            <div class="left-content">
-                                                <div class="icon-box">
-                                                    <span class="icon-development"></span>
-                                                </div>
-                                                <div class="title-box">
-                                                    <h2>Website Design And <br>
-                                                        Development</h2>
-                                                </div>
-                                            </div>
-
-                                            <div class="right-content">
-                                                <p>Mestib ulligula remov project complete <br>
-                                                    marketing reserch to abusiness high process </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="overlay-content">
-                                            <div class="left-content">
-                                                <div class="number-box">
-                                                    03
-                                                </div>
-
-                                                <div class="title-box2">
-                                                    <h2>Website Design And <br>
-                                                        Development</h2>
-                                                </div>
-                                            </div>
-
-                                            <div class="right-content">
-                                                <div class="btn-box">
-                                                    <a href="#">View Details <span class="icon-chevron"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End Services One Right Content-->
-                </div>
-            </div>
-        </section>
-        <!--End Services One -->
-
-        <!--Start Gallery One -->
-        <section class="gallery-one">
-            <div class="container">
-                <div class="sec-title tg-heading-subheading animation-style2">
-                    <div class="sec-title__tagline">
-                        <p class="tg-element-title">our gallery</p>
-                        <div class="border-box"></div>
-                    </div>
-                    <h2 class="sec-title__title tg-element-title">Latest Showcase
-                    </h2>
-                </div>
-                <div class="row">
-                    <!--Start Gallery One Single-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
-                        data-wow-duration="1500ms">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__single-img">
-                                <div class="inner">
-                                    <img src="assets/images/gallery/gallery-v1-img1.jpg" alt="#">
-                                    <div class="btn-box">
-                                        <a href="#"><span class="icon-diagonal-arrow2"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Gallery One Single-->
-
-                    <!--Start Gallery One Single-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
-                        data-wow-duration="1500ms">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__single-content">
-                                <div class="number-box">
-                                    01
-                                </div>
-                                <h2><a href="#">Product Design</a></h2>
-                                <p>Mestib ulligula to remove the projects completed
-                                    market reserch abusines high process</p>
-                                <div class="btn-box">
-                                    <a href="#">View Details <span class="icon-chevron"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Gallery One Single-->
-
-                    <!--Start Gallery One Single-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__single-img">
-                                <div class="inner">
-                                    <img src="assets/images/gallery/gallery-v1-img2.jpg" alt="#">
-                                    <div class="btn-box">
-                                        <a href="#"><span class="icon-diagonal-arrow2"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Gallery One Single-->
-
-                    <!--Start Gallery One Single-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
-                        data-wow-duration="1500ms">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__single-img">
-                                <div class="inner">
-                                    <img src="assets/images/gallery/gallery-v1-img3.jpg" alt="#">
-                                    <div class="btn-box">
-                                        <a href="#"><span class="icon-diagonal-arrow2"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Gallery One Single-->
-
-                    <!--Start Gallery One Single-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
-                        data-wow-duration="1500ms">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__single-content">
-                                <div class="number-box">
-                                    02
-                                </div>
-                                <h2><a href="#">The Brightest</a></h2>
-                                <p>Mestib ulligula to remove the projects completed
-                                    market reserch abusines high process</p>
-                                <div class="btn-box">
-                                    <a href="#">View Details <span class="icon-chevron"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Gallery One Single-->
-
-                    <!--Start Gallery One Single-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__single-img">
-                                <div class="inner">
-                                    <img src="assets/images/gallery/gallery-v1-img4.jpg" alt="#">
-                                    <div class="btn-box">
-                                        <a href="#"><span class="icon-diagonal-arrow2"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Gallery One Single-->
-                </div>
-            </div>
-        </section>
-        <!--End Gallery One -->
-
-        <!--Start Testimonials One -->
-        <section class="testimonials-one">
-            <div class="container">
-                <div class="testimonials-one__top">
-                    <div class="sec-title tg-heading-subheading animation-style2">
-                        <div class="sec-title__tagline">
-                            <p class="tg-element-title">Testimonials</p>
-                            <div class="border-box"></div>
-                        </div>
-                        <h2 class="sec-title__title tg-element-title">Our Expert Clients
-                        </h2>
-                    </div>
-
-                    <div class="btn-box">
-                        <a class="thm-btn" href="contact.html">
-                            <span class="txt">Client Feedback</span>
-                            <span class="bdrl"></span>
-                            <span class="bdrr"></span>
-                        </a>
-                    </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="testimonials-one__inner">
-                            <div class="owl-carousel owl-theme thm-owl__carousel testimonials-one__carousel"
-                                data-owl-options='{
-                                    "loop": true,
-                                    "autoplay": true,
-                                    "margin": 30,
-                                    "nav": true,
-                                    "dots": true,
-                                    "smartSpeed": 500,
-                                    "autoplayTimeout": 10000,
-                                    "navText": ["<span class=\"icon-arrow-right\"></span>","<span class=\"icon-arrow-left\"></span>"],
-                                    "responsive": {
-                                            "0": {
-                                                "items": 1
-                                            },
-                                            "768": {
-                                                "items": 1
-                                            },
-                                            "992": {
-                                                "items": 1
-                                            },
-                                            "1200": {
-                                                "items": 1
-                                            }
-                                        }
-                                    }'>
+            </section>
 
-                                <!--Start Testimonials One Single-->
-                                <div class="testimonials-one__single">
-                                    <div class="left-content">
-                                        <div class="icon-box">
-                                            <span class="icon-left-quote"></span>
-                                        </div>
-                                        <div class="text-box">
-                                            <p>Ramitas Malika</p>
-                                            <span>Co-Founder</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="right-content">
-                                        <div class="text-box">
-                                            <p>Dolor massa, a pellentesque nulla congue quis fusce convallis diam. Nam
-                                                torister
-                                                tempor faucibus imperdiet feli sed, vestibulligula. remove the politices
-                                                for
-                                                this projects marketing reserch business high levels in the process we
-                                                try
-                                                to
-                                                best consultations in our work for futures..</p>
-                                        </div>
-
-                                        <div class="rating-box">
-                                            <ul>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="img-box">
-                                            <img src="assets/images/testimonial/testimonials-v1-img1.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Testimonials One Single-->
-
-                                <!--Start Testimonials One Single-->
-                                <div class="testimonials-one__single">
-                                    <div class="left-content">
-                                        <div class="icon-box">
-                                            <span class="icon-left-quote"></span>
-                                        </div>
-                                        <div class="text-box">
-                                            <p>Ramitas Malika</p>
-                                            <span>Co-Founder</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="right-content">
-                                        <div class="text-box">
-                                            <p>Dolor massa, a pellentesque nulla congue quis fusce convallis diam. Nam
-                                                torister
-                                                tempor faucibus imperdiet feli sed, vestibulligula. remove the politices
-                                                for
-                                                this projects marketing reserch business high levels in the process we
-                                                try
-                                                to
-                                                best consultations in our work for futures..</p>
-                                        </div>
-
-                                        <div class="rating-box">
-                                            <ul>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="img-box">
-                                            <img src="assets/images/testimonial/testimonials-v1-img1.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Testimonials One Single-->
-
-                                <!--Start Testimonials One Single-->
-                                <div class="testimonials-one__single">
-                                    <div class="left-content">
-                                        <div class="icon-box">
-                                            <span class="icon-left-quote"></span>
-                                        </div>
-                                        <div class="text-box">
-                                            <p>Ramitas Malika</p>
-                                            <span>Co-Founder</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="right-content">
-                                        <div class="text-box">
-                                            <p>Dolor massa, a pellentesque nulla congue quis fusce convallis diam. Nam
-                                                torister
-                                                tempor faucibus imperdiet feli sed, vestibulligula. remove the politices
-                                                for
-                                                this projects marketing reserch business high levels in the process we
-                                                try
-                                                to
-                                                best consultations in our work for futures..</p>
-                                        </div>
-
-                                        <div class="rating-box">
-                                            <ul>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                                <li>
-                                                    <span class="icon-pointed-star"></span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="img-box">
-                                            <img src="assets/images/testimonial/testimonials-v1-img1.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Testimonials One Single-->
-                            </div>
-                        </div>
-                    </div>
+            <!--HTML Structure-->
+            <section class="section html-structure" id="html-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>HTML Structure</h2>
                 </div>
-            </div>
-        </section>
-        <!--End Testimonials One -->
 
-        <!--Start Awards One -->
-        <section class="awards-one">
-            <div class="container">
-                <div class="awards-one__box">
-                    <div class="border-box2"></div>
+                <br>
+                <div class="sec-content">
 
-                    <div class="sec-title tg-heading-subheading animation-style2">
-                        <div class="sec-title__tagline">
-                            <p class="tg-element-title">we proud that</p>
-                            <div class="border-box"></div>
-                        </div>
-                        <h2 class="sec-title__title tg-element-title">Discover Our Awards</h2>
-                    </div>
+                    <h3>The html template uses Latest <strong>Bootstrap v5.0.0</strong> with valid HTML5 tags. This
+                        theme is a responisve layout with 4 column Support column. All of the information in content
+                        area is nested within a class and comes with predefined classes.</h3>
 
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="awards-one__inner">
-                                <div class="owl-carousel owl-theme thm-owl__carousel awards-one__carousel"
-                                    data-owl-options='{
-                                    "loop": true,
-                                    "autoplay": true,
-                                    "margin": 30,
-                                    "nav": true,
-                                    "dots": false,
-                                    "smartSpeed": 500,
-                                    "autoplayTimeout": 10000,
-                                    "navText": ["<span class=\"icon-right-arrow-1\"></span>","<span class=\"icon-right-arrow-1\"></span>"],
-                                    "responsive": {
-                                            "0": {
-                                                "items": 1
-                                            },
-                                            "768": {
-                                                "items": 2
-                                            },
-                                            "992": {
-                                                "items": 2
-                                            },
-                                            "1200": {
-                                                "items": 3
-                                            }
-                                        }
-                                    }'>
-                                    <!--Start Awards One Single-->
-                                    <div class="awards-one__single text-center">
-                                        <div class="awards-one__single-top">
-                                            <div class="awards-one__single-icon">
-                                                <span class="icon-dribbble-1"></span>
-                                            </div>
-                                            <div class="awards-one__single-content">
-                                                <span>2012-2023</span>
-                                                <h2>Best Development Awards 2022</h2>
-                                                <p>Dribble Awards-</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="awards-one__single-counter">
-                                            <h3>01</h3>
-                                        </div>
-
-                                        <div class="awards-one__single-bottom">
-                                            <div class="awards-one__single-content">
-                                                <span>2012-2023</span>
-                                                <h2>Best Development Awards 2022</h2>
-                                                <p>Dribble Awards-</p>
-                                            </div>
-                                            <div class="overlay-icon">
-                                                <span class="icon-dribbble-1"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Awards One Single-->
-
-                                    <!--Start Awards One Single-->
-                                    <div class="awards-one__single text-center">
-                                        <div class="awards-one__single-top">
-                                            <div class="awards-one__single-icon">
-                                                <span class="icon-medal"></span>
-                                            </div>
-                                            <div class="awards-one__single-content">
-                                                <span>2015-2018</span>
-                                                <h2>Mobile of the Month, July 2014</h2>
-                                                <p>Awards Inc-</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="awards-one__single-counter">
-                                            <h3>02</h3>
-                                        </div>
-
-                                        <div class="awards-one__single-bottom">
-                                            <div class="awards-one__single-content">
-                                                <span>2015-2018</span>
-                                                <h2>Mobile of the Month, July 2014</h2>
-                                                <p>Awards Inc-</p>
-                                            </div>
-                                            <div class="overlay-icon">
-                                                <span class="icon-medal"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Awards One Single-->
-
-                                    <!--Start Awards One Single-->
-                                    <div class="awards-one__single text-center">
-                                        <div class="awards-one__single-top">
-                                            <div class="awards-one__single-icon">
-                                                <span class="icon-social"></span>
-                                            </div>
-                                            <div class="awards-one__single-content">
-                                                <span>2012-2013</span>
-                                                <h2>Year Best Interective Awards</h2>
-                                                <p>Behance Award-</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="awards-one__single-counter">
-                                            <h3>03</h3>
-                                        </div>
-                                        <div class="awards-one__single-bottom">
-                                            <div class="awards-one__single-content">
-                                                <span>2012-2013</span>
-                                                <h2>Year Best Interective Awards</h2>
-                                                <p>Behance Award-</p>
-                                            </div>
-                                            <div class="overlay-icon">
-                                                <span class="icon-social"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Awards One Single-->
-
-                                    <!--Start Awards One Single-->
-                                    <div class="awards-one__single text-center">
-                                        <div class="awards-one__single-top">
-                                            <div class="awards-one__single-icon">
-                                                <span class="icon-dribbble-1"></span>
-                                            </div>
-                                            <div class="awards-one__single-content">
-                                                <span>2012-2023</span>
-                                                <h2>Best Development Awards 2022</h2>
-                                                <p>Dribble Awards-</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="awards-one__single-counter">
-                                            <h3>01</h3>
-                                        </div>
-
-                                        <div class="awards-one__single-bottom">
-                                            <div class="awards-one__single-content">
-                                                <span>2012-2023</span>
-                                                <h2>Best Development Awards 2022</h2>
-                                                <p>Dribble Awards-</p>
-                                            </div>
-                                            <div class="overlay-icon">
-                                                <span class="icon-dribbble-1"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Awards One Single-->
-
-                                    <!--Start Awards One Single-->
-                                    <div class="awards-one__single text-center">
-                                        <div class="awards-one__single-top">
-                                            <div class="awards-one__single-icon">
-                                                <span class="icon-medal"></span>
-                                            </div>
-                                            <div class="awards-one__single-content">
-                                                <span>2015-2018</span>
-                                                <h2>Mobile of the Month, July 2014</h2>
-                                                <p>Awards Inc-</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="awards-one__single-counter">
-                                            <h3>02</h3>
-                                        </div>
-
-                                        <div class="awards-one__single-bottom">
-                                            <div class="awards-one__single-content">
-                                                <span>2015-2018</span>
-                                                <h2>Mobile of the Month, July 2014</h2>
-                                                <p>Awards Inc-</p>
-                                            </div>
-                                            <div class="overlay-icon">
-                                                <span class="icon-medal"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Awards One Single-->
-
-                                    <!--Start Awards One Single-->
-                                    <div class="awards-one__single text-center">
-                                        <div class="awards-one__single-top">
-                                            <div class="awards-one__single-icon">
-                                                <span class="icon-social"></span>
-                                            </div>
-                                            <div class="awards-one__single-content">
-                                                <span>2012-2013</span>
-                                                <h2>Year Best Interective Awards</h2>
-                                                <p>Behance Award-</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="awards-one__single-counter">
-                                            <h3>03</h3>
-                                        </div>
-                                        <div class="awards-one__single-bottom">
-                                            <div class="awards-one__single-content">
-                                                <span>2012-2013</span>
-                                                <h2>Year Best Interective Awards</h2>
-                                                <p>Behance Award-</p>
-                                            </div>
-                                            <div class="overlay-icon">
-                                                <span class="icon-social"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Awards One Single-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Awards One -->
-
-        <!--Start Team One -->
-        <section class="team-one">
-            <div class="container">
-                <!--Start Team One Top-->
-                <div class="team-one__top">
-                    <div class="container">
-                        <div class="team-one__top-inner">
-                            <div class="sec-title tg-heading-subheading animation-style2">
-                                <div class="sec-title__tagline">
-                                    <p class="tg-element-title">our professionals</p>
-                                    <div class="border-box"></div>
-                                </div>
-                                <h2 class="sec-title__title tg-element-title">Dedicated Our Team
-                                </h2>
-                            </div>
-
-                            <div class="btn-box">
-                                <a class="thm-btn" href="contact.html">
-                                    <span class="txt">View More Details</span>
-                                    <span class="bdrl"></span>
-                                    <span class="bdrr"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Team One Top-->
-
-                <div class="team-one__bottom">
-                    <div class="container filter-layout masonary-layout">
-                        <div class="row">
-                            <!--Start Team One Single-->
-                            <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
-                                <div class="team-one__single">
-                                    <div class="team-one__single-img">
-                                        <div class="inner">
-                                            <img src="assets/images/team/team-v1-img1.jpg" alt="#">
-                                            <div class="overlay-content">
-                                                <h2><a href="#">Tomas Whites</a></h2>
-                                                <p>Designer</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Start Team One Single-->
-
-                            <!--Start Team One Single-->
-                            <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.3s">
-                                <div class="team-one__single mt40">
-                                    <div class="team-one__single-img">
-                                        <div class="inner">
-                                            <img src="assets/images/team/team-v1-img2.jpg" alt="#">
-                                            <div class="overlay-content">
-                                                <h2><a href="#">Tomas Whites</a></h2>
-                                                <p>Designer</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Start Team One Single-->
-
-                            <!--Start Team One Single-->
-                            <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.5s">
-                                <div class="team-one__single mt80">
-                                    <div class="team-one__single-img">
-                                        <div class="inner">
-                                            <img src="assets/images/team/team-v1-img3.jpg" alt="#">
-                                            <div class="overlay-content">
-                                                <h2><a href="#">Tomas Whites</a></h2>
-                                                <p>Designer</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Start Team One Single-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Team One -->
-
-        <!--Start Blog One -->
-        <section class="blog-one">
-            <div class="container">
-                <div class="row">
-                    <!--Start Blog One Content Left-->
-                    <div class="col-xl-4">
-                        <div class="blog-one__content-left">
-                            <div class="sec-title tg-heading-subheading animation-style2">
-                                <div class="sec-title__tagline">
-                                    <p class="tg-element-title">our insights</p>
-                                    <div class="border-box"></div>
-                                </div>
-                                <h2 class="sec-title__title tg-element-title">Our Latest <br>
-                                    Article & New <br>
-                                    Updates
-                                </h2>
-                            </div>
-                            <div class="blog-one__content-text">
-                                <p>Mestib ulligulia remove projects completed
-                                    the marketing reserch to abusiness high process
-                                    our work in high level. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Blog One Content Left-->
-
-                    <!--Start Blog One Content Right-->
-                    <div class="col-xl-8">
-                        <div class="blog-one__content-right">
-                            <ul class="blog-one__content-right-list">
-                                <li class="wow animated fadeInRight" data-wow-delay="0.1s">
-                                    <div class="left-content">
-                                        <div class="date-box">
-                                            <p>Oct 2023</p>
-                                        </div>
-                                        <div class="text-box">
-                                            <h2><a href="#">Worldwides annual spends on <br>
-                                                    digital advertising</a></h2>
-                                            <h3>Digital Agency <span>By Rason Toy</span></h3>
-                                        </div>
-                                    </div>
-                                    <div class="icon-box">
-                                        <a href="#"><span class="icon-right-arrow-1"></span></a>
-                                    </div>
-                                </li>
-
-                                <li class="wow animated fadeInRight" data-wow-delay="0.3s">
-                                    <div class="left-content">
-                                        <div class="date-box">
-                                            <p>Nov 2023</p>
-                                        </div>
-                                        <div class="text-box">
-                                            <h2><a href="#">The secret of change is to focus <br>
-                                                    all your energy</a></h2>
-                                            <h3>Agency/business <span>By Rason Toy</span></h3>
-                                        </div>
-                                    </div>
-                                    <div class="icon-box">
-                                        <a href="#"><span class="icon-right-arrow-1"></span></a>
-                                    </div>
-                                </li>
-
-                                <li class="wow animated fadeInRight" data-wow-delay="0.5s">
-                                    <div class="left-content">
-                                        <div class="date-box">
-                                            <p>Sep 2023</p>
-                                        </div>
-                                        <div class="text-box">
-                                            <h2><a href="#">A Simple Social Media Marketing <br>
-                                                    Checklist</a></h2>
-                                            <h3>Digital Agency <span>By Rason Toy</span></h3>
-                                        </div>
-                                    </div>
-                                    <div class="icon-box">
-                                        <a href="#"><span class="icon-right-arrow-1"></span></a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End Blog One Content Right-->
-                </div>
-            </div>
-        </section>
-        <!--End Blog One -->
-
-        <!--Start Slogan One -->
-        <section class="slogan-one">
-            <div class="auto-container">
-                <div class="slogan-one__inner">
-                    <div class="container">
-                        <div class="slogan-one__content-box">
-                            <div class="text-box tg-heading-subheading animation-style2">
-                                <h2 class="tg-element-title">Get In Touch</h2>
-                            </div>
-
-                            <div class="btn-box">
-                                <a class="thm-btn" href="contact.html">
-                                    <span class="txt">Send A Message</span>
-                                    <span class="bdrl"></span>
-                                    <span class="bdrr"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Slogan One -->
-
-        <!--Start Footer One -->
-        <footer class="footer-one">
-            <!--Start Footer-->
-            <div class="footer">
-                <div class="container">
-                    <div class="footer-one__inner">
-                        <div class="logo-box text-center">
-                            <a href="index.html"><img src="assets/images/resources/logo-1.png" alt="#"></a>
-                        </div>
-
-                        <div class="footer-one__contact">
-                            <div class="footer-one__contact-bdr"
-                                style="background-image: url(assets/images/footer/footer-v1-img1.png);"></div>
-                            <ul>
-                                <li>
-                                    <div class="icon-box">
-                                        <span class="icon-ringing"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Call anytime</p>
-                                        <h3><a href="tel:98210009630">+ 9821 (000) - 9630</a></h3>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon-box">
-                                        <span class="icon-message"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Send email</p>
-                                        <h3><a href="mailto:yourmail@email.com">baosh@company.com</a></h3>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon-box">
-                                        <span class="icon-placeholder"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Visit Office</p>
-                                        <h3>27 Division St, New York</h3>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="footer-one__menu">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Pages</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Home</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="footer-one__social-links">
-                            <ul>
-                                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                <li><a href="#"><span class="icon-google-plus-logo"></span></a></li>
-                                <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                                <li><a href="#"><span class="icon-wifi"></span></a></li>
-                            </ul>
-                            <div class="border-box"></div>
-                        </div>
-
-                        <div class="footer-one__copyright">
-                            <p>Copyright © 2023 all rights reserved.</p>
-                        </div>
-
-                        <div class="scroll-to-top-box">
-                            <a href="#" data-target="html" class="scroll-to-target scroll-to-top">Back to Top</a>
-                            <div class="border-box"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Footer-->
-        </footer>
-        <!--End Footer One-->
-    </div>
-    <!-- /.page-wrapper -->
-
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler">
-                <i class="icon-plus"></i>
-            </span>
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image">
-                    <img src="assets/images/resources/logo-1.png" alt="" />
-                </a>
-            </div>
-            <div class="mobile-nav__container"></div>
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <a href="tel:123456789">444 000 777 66</a>
-                </li>
-            </ul>
-            <div class="mobile-nav__social">
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-facebook-square"></a>
-                <a href="#" class="fab fa-pinterest-p"></a>
-                <a href="#" class="fab fa-instagram"></a>
-            </div>
+                    <h3 class="content-title">Basic Grid HTML</h3>
+                    <p>For a simple two column layout, create a .container and add the appropriate number of .col-md*
+                        columns. </p>
+                    <p>Given this example, we have .col-md-4 and .col-md-8, making for 12 total columns and a complete
+                        row.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+<div class="container">
+    <div class="col-md-4">...</div>
+    <div class="col-md-8">...</div>
+</div>
+                </pre>
+                    <br />
+                    <h3 class="content-title">Nesting Columns</h3><!-- /.content-title -->
+                    <p>To nest your content with the default grid, add a new .container and set of .col-md* columns
+                        within an existing .col-md* column. Nested rows should include a set of columns that add up to
+                        the number of columns of its parent.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+<div class="container">
+    <div class="col-md-9">
+        Level 1 column
+        <div class="row">
+            <div class="col-md-8">Level 2</div>
+            <div class="col-md-4">Level 2</div>
         </div>
     </div>
 
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label>
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="icon-search-interface-symbol"></i>
-                </button>
-            </form>
-        </div>
+    <div class="col-md-3">
+        Level 2 column
     </div>
+</div>
+</pre><!-- /.code -->
+                </div>
 
-    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nice-select/jquery.nice-select.min.js"></script>
-    <script src="assets/vendors/odometer/odometer.min.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendors/swiper/swiper.min.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/sidebar-content/jquery-sidebar-content.js"></script>
-    <script src="assets/vendors/gsap/gsap.js"></script>
-    <script src="assets/vendors/gsap/ScrollTrigger.js"></script>
-    <script src="assets/vendors/gsap/SplitText.js"></script>
+            </section>
 
-    <!-- Template js -->
-    <script src="assets/js/custom.js"></script>
+            <!--CSS Structure-->
+            <section class="section css-structure" id="css-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-at"></span>
+                    <h2>CSS Files and Structure</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Mainly three main CSS files are used in this theme. The first one
+                        <strong>bootstrap.css</strong>, second one is <strong>style.css</strong> which for this template
+                        and third one is <strong>responsive.css</strong> to control responsive layouts. </h3>
+                    <p>If you would like to edit a specific section of the site, simply find the appropriate label in
+                        the CSS file, and then scroll down until you find the appropriate style that needs to be edited.
+                    </p>
+                    <br />
+                    <p>These are the css files that are loaded into templates in top of head of html file labled as
+                        <b>link css</b>.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+<link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+<link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+<link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+<link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+<link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+<link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+<link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+<link rel="stylesheet" href="assets/vendors/icons/style.css">
+<link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
+<link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+<link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
+<link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+<link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
+<link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+<link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
+
+<!-- template styles -->
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+                    </pre><!-- /.code -->
+
+                    <br />
+                    <h3 class="content-title">Fonts</h3>
+
+                    <p>By default, the template loads this font from Google Web Font Services, you can change the font
+                        with the one that suits you best.</p>
+                    <br />
+                    <pre class="code" data-language="css">
+
+<link href="https://fonts.google.com/specimen/DM+Sans?query=dm+sans" rel="stylesheet">
+
+<link href="https://fonts.google.com/specimen/Lora?query=lora" rel="stylesheet">
+
+
+                
+
+                </pre><!-- /.code -->
+                </div>
+
+            </section>
+
+            <!--Javascript-->
+            <section class="section javascript" id="javascript">
+                <div class="sec-title">
+                    <span class="icon fa fa-code"></span>
+                    <h2>Jquery and javascript</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>This theme imports three types of Javascript files.</h3>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>Custom scripts <strong>(custom.js)</strong></li>
+                        <li>Some plugins</li>
+                        <br>
+                        <li><strong>jQuery</strong> is a Javascript library that greatly reduces the amount of code that
+                            you must write.</li>
+                        <li>Most of the animation in this site is carried out from the customs scripts. There are a few
+                            functions worth looking over.</li>
+                    </ul>
+                    <br>
+                    <p>In addition to the custom scripts, I have implemented few "tried and true" plugins to create the
+                        effects. This plugin is packed, so you won't need to manually edit anything in the file. The
+                        only necessary thing to know is how to call the method</p>
+                    <br />
+                    <br />
+                    <p>These are the JS files that are loaded into templates in end of the Body Section.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+<script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendors/jarallax/jarallax.min.js"></script>
+<script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+<script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+<script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+<script src="assets/vendors/nouislider/nouislider.min.js"></script>
+<script src="assets/vendors/odometer/odometer.min.js"></script>
+<script src="assets/vendors/swiper/swiper.min.js"></script>
+<script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+<script src="assets/vendors/wnumb/wNumb.min.js"></script>
+<script src="assets/vendors/wow/wow.js"></script>
+<script src="assets/vendors/isotope/isotope.js"></script>
+<script src="assets/vendors/countdown/countdown.min.js"></script>
+<script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+<script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+<script src="assets/vendors/vegas/vegas.min.js"></script>
+<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+<script src="assets/vendors/timepicker/timePicker.js"></script>
+<script src="assets/vendors/circleType/jquery.circleType.js"></script>
+<script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
+<!-- template js -->
+<script src="assets/js/custom.js"></script>
+                </pre><!-- /.code -->
+
+                </div>
+
+            </section>
+
+            <!--Map Settings-->
+            <section class="section map-settings" id="map-settings">
+                <div class="sec-title">
+                    <span class="icon fa fa-map-marker"></span>
+                    <h2>Google Map Settings</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>We used embed google map with ifram to get your map iframe code go to <a
+                            href="https://www.google.com/maps">Google Map</a> Then search your desire location See
+                        screenshot below</h3>
+
+                    <figure class="image-box"><img src="images/map-settings.png" alt=""></figure>
+                    <h3>After That click to Location name and click on share see screenshot below</h3>
+                    <figure class="image-box"><img src="images/map-2.png" alt=""></figure>
+                    <h3>Then Click on Embed a map & <strong>copy the HTML</strong></h3>
+                    <figure class="image-box"><img src="images/map-3.png" alt=""></figure>
+
+                </div>
+
+            </section>
+
+            <!--Mailchimp Settings-->
+            <section class="section mailchimp-settings" id="mailchimp-settings">
+                <div class="sec-title">
+                    <span class="icon fa fa-envelope"></span>
+                    <h2>Mailchimp Settings</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+                    <h3>We have added an attractive and fully functional Mailchimp form. You need to update the
+                        Mailchimp api and list id.</h3>
+                    <br />
+                    <p>You have to add mailchimp popup form URL. You can find mailchimp dashboard</p>
+
+                    <figure class="image-box"><img src="images/mailchim-settings.png" alt=""></figure>
+
+                </div>
+
+            </section>
+
+
+
+
+
+            <!--Contact Form Settings-->
+            <section class="section contact-form" id="contact-form">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-list"></span>
+                    <h2>Contact Form Settings</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+                    <h3>We have added an attractive and fully functional contact form. We used <a
+                            href="https://github.com/PHPMailer/PHPMailer" target="_blank">PHP Mailer</a> with Google
+                        SMTP Service. You have to add your gmail email and Password to get email to your inbox. If you
+                        have
+                        enabled 2 step verification in your gmail then you have to create an app password from Your <a
+                            href="https://myaccount.google.com/security">Google account manager</a> From There click on
+                        App passwords. See screenshot Below:
+                    </h3>
+                    <img src="images/google-app-pass.png" alt="">
+                    <h3>After that They may ask you to login then you will get
+                        A Password Manager Form There you have to Select App (Mail) and device (Other Custom Name)
+                        Follow
+                        Screenshot below</h3>
+                    <img src="images/app-pass-1.png" alt=""> <br>
+                    <h3>Give The name like brome HTML SMTP Credentials</h3>
+                    <img src="images/app-pass-2.png" alt="">
+                    <h3>After That Click on Generate And Then You Will Get Your SMTP Password</h3>
+                    <img src="images/app-pass-3.png" alt="">
+                    <img src="images/app-pass-4.png" alt="">
+                    <p>Now You have to fill up the credentials to your project <strong>sendemail.php</strong> Can be
+                        located at <strong>assets/inc/sendemail.php</strong></p>
+                    <p>Now Add your gmail email address and password (App Password Which Generated Before) to
+                        <strong>SMTP_EMAIL</strong> &
+                        <strong>SMTP_PASSWORD</strong> see screenshot below. </p>
+                    <figure class="image-box"><img src="images/smpt-1.png" alt=""></figure>
+                    <p>Then Update the <strong>RECIPIENT_EMAIL</strong> and
+                        <strong>RECIPIENT_NAME</strong> Where you will get that email You can give same gmail or other
+                        email here to get your user emails.</p>
+                    <figure class="image-box"><img src="images/smpt-2.png" alt=""></figure>
+                    <p>Also There is some recommended info you should update to match the site information like
+                        <strong>HOST_NAME</strong>, <strong>HOST_EMAIL</strong></p>
+                    <figure class="image-box"><img src="images/smpt-3.png" alt=""></figure>
+                    <h3>The Most important Thing is You have to give <strong>Google SMTP</strong> credentials other wise
+                        it will not
+                        work.</h3>
+
+                </div>
+
+            </section>
+
+            <!--Sources and Credits-->
+            <section class="section tutorial" id="tutorial">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Tutorial</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+                    <h3 class="content-title">LOGO</h3><!-- /.content-title -->
+                    <br />
+                    <p>Lets start updating the template. Open index.html file and follow the steps.</p>
+                    <p>Most of the updates are same for all pages. So will explain once here.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+<a class="navbar-brand" href="index.html">
+    <img src="img/logo.png" alt="Awesome Image"/>
+</a>
+                </pre><!-- /.code -->
+
+                    <p>Replace "images/logo.png" with your logo image url source or website name .</p>
+                    <br />
+
+                    <h3 class="content-title">NAVMENU</h3><!-- /.content-title -->
+                    <br />
+                    <p>This is the basic structure.</p>
+
+                    <pre class="code" data-language="html">
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse main-navigation" id="main-nav-bar">
+    <ul class="nav navbar-nav navigation-box">
+        <li>
+            <a href="index.html">Home</a>
+            <ul class="sub-menu">
+                <li><a href="index.html">Home One</a></li>
+                <li><a href="index2.html">Home Two</a></li>
+                <li><a href="index3.html">Home Three</a></li>
+                <li><a href="index4.html">Home Four</a></li>
+                <li><a href="index5.html">Home Five</a></li>
+            </ul><!-- /.sub-menu -->
+        </li>
+        <li>
+            <a href="about.html">About Us</a>
+            <ul class="sub-menu">
+                <li><a href="company-overview.html">Company Overview</a></li>
+                <li><a href="company-history.html">Company History</a></li>
+                <li><a href="partners.html">Our Partners</a></li>
+            </ul><!-- /.sub-menu -->
+        </li>
+        <li>
+            <a href="...">....</a>
+            <ul class="sub-menu">
+                <li><a href="....">...</a></li>
+                <li><a href="....">...</a></li>
+            </ul><!-- /.sub-menu -->
+        </li>
+    </ul>
+</div><!-- /.navbar-collapse --></pre><!-- /.code -->
+
+                    <br />
+                    <p>Add your own menu item to that ul li item. and if you want to add dropdown menu just make a
+                        nesting ul li with class of <b>sub-menu</b></p>
+
+                    <br />
+                    <br />
+                    <h3 class="content-title">FOOTER COPYRIGHT</h3><!-- /.content-title -->
+                    <br />
+                    <pre class="code" data-language="html">
+<section class="footer-bottom text-center">
+    <div class="container">
+        <p>&copy; Copyright Baosh 2023 . All right reserved.</p>
+    </div><!-- /.container -->
+</section><!-- /.footer-bottom -->
+
+                </pre><!-- /.code -->
+                    <p>replace "© Copyright Baosh 2023 . All right reserved." with the copyright info.</p>
+                </div>
+
+            </section>
+
+            <!--Sources and Credits-->
+            <section class="section sources-credits" id="sources-credits">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Sources and Credits</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Fonts Used int the template are google fonts, you can find theme on Google Fonts API</h3>
+
+                    <p><strong> Fonts Used are :</strong></p>
+                    <p><a href="https://fonts.google.com/specimen/DM+Sans?query=dm+sans">DM Sans</a></p>
+                    <p><a href="https://fonts.google.com/specimen/Lora?query=lora">Lora</a></p>
+
+                    <br>
+
+                    <p><strong> File Used For Animation Effects :</strong></p>
+                    <p><strong><a href="http://ianlunn.github.io/Hover/" target="_blank">animate.min.css</a></strong>
+                        (in css
+                        Folder)</p>
+                    <p><strong><a href="http://daneden.me/animate" target="_blank">custom-animate.css</a></strong> (in
+                        css
+                        Folder)</p>
+
+                    <br>
+
+                    <p><strong> Sliders Used Are :</strong></p>
+                    <p><a href="http://www.owlcarousel.owlgraphic.com/docs/started-welcome.html" target="_blank">Owl
+                            Carousel</a></p>
+
+                    <br>
+
+                    <p><strong> Plugins Used Are :</strong></p>
+
+                    <p><a href="http://dimsemenov.com/plugins/magnific-popup/documentation.html"
+                            target="_blank">Magnific Popup</a> (can be located in js folder)</p>
+                    <p><a href="https://github.com/jzaefferer/jquery-validation" target="_blank">jQuery Validation</a>
+                        (can be located in js folder)</p>
+                    <p><a href="http://kottenator.github.io/jquery-circle-progress/" target="_blank">jQuery Circle
+                            Pogress</a> (can be located in js folder)</p>
+                    <p><a href="http://silviomoreto.github.io/bootstrap-select" target="_blank">Bootstrap Select</a>
+                        (can be located in js folder)</p>
+                    <p><a href="http://isotope.metafizzy.co" target="_blank">isotope</a> (can be located in js folder)
+                    </p>
+                    <p><a href="https://hpneo.github.io/gmaps/" target="_blank">Gmap.js</a> (can be located in js
+                        folder)</p>
+                    <p><a href="https://fontawesome.com/" target="_blank">FontAwesome Icons</a> (can be located in
+                        plugins folder)</p>
+                    <p><a href="http://icofont.com/" target="_blank">Icofont Icons</a> (can be located in plugins
+                        folder)</p>
+
+                    Every Code is properly commented for Editing Ease.
+
+                </div>
+
+            </section>
+
+            <!--Support-->
+            <section class="section support" id="support">
+                <div class="sec-title">
+                    <span class="icon fa fa-support"></span>
+                    <h2>Support</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad
+                        to help you if you have any questions relating to this theme. No guarantees, but I'll do my best
+                        to assist. If you have any queries, please feel free to contact us at Support Center.</h3>
+
+                    <p>Email Us at : <a href="mailto:webplateone@gmail.com">webplateone@gmail.com</a> </p>
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+
+    </div>
+    <!--End pagewrapper-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/prism.js"></script>
+
+    <script src="js/jquery.highlight.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
